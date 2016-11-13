@@ -1,0 +1,32 @@
+.woodClass {
+  font-size: 25px;
+}
+
+#woodButton {
+  display: inline-block;
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 95px;
+  padding: 5px 5px;
+  background-color: #DDDDDD;
+}
+
+#fireButton {
+  display: inline-block;
+  visibility: hidden;
+  margin-top: 10px;
+  border: 1px solid black;
+  width: 95px;
+  padding: 5px 5px;
+  background-color: #DDDDDD;
+}
+
+.noSelect {
+  -webkit-user-select: none;
+  cursor: default;
+}
+
+.disabledDiv {
+    pointer-events: none;
+    opacity: 0.4;
+}
